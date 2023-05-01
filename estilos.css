@@ -1,0 +1,56 @@
+h1{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+h2{
+    font: bold 14px sans-serif;
+}
+header, section, footer, aside, nav, article,hgroup{
+    display: block;
+}
+body{
+    text-align: center;
+}
+.agrupar{
+    width: 960px;
+    background: green;
+    margin: 15px auto; 
+    padding: 40px;
+}
+.cabecera{
+    background: #7fff00;
+    border: 1px solid grey;
+    padding: 20px;
+}
+.cabecera h1{
+    text-align: left;
+}
+.menu{
+    background: #ccc;
+    padding: 5px 15px;
+    text-align: left;
+}
+.menu li{
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana;
+    border: 1px solid black;
+    display: inline-block;
+}
+.seccion{
+    margin: 20px;
+    width: 60%;
+    float: left;
+    margin: 20px 0;
+
+}
+.columna{
+    width: 30%;
+    float: left;
+    margin: 20px 0;
+
+}
+.pie{
+    clear: both;
+}
